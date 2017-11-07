@@ -6,7 +6,7 @@ var shape2 = new mojs.Shape({
 	easing: 'cubic.out',
 	repeat: 999
 }).play();
-var square = document.querySelector('#js-square');
+var square = document.querySelector('#ship');
 console.log('square : ');
 console.log(square);
 new mojs.Tween({
